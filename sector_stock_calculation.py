@@ -6,18 +6,21 @@ import re
 from tqdm import tqdm
 from datetime import datetime
 import statistics
+from sample import get_csv_filenames
 
 # Setup driver
 driver = webdriver.Chrome()
 
-array_of_sectors = [
-    'FERTILIZER', 
-    'COMMERCIAL_BANKS', 
-    'OIL_&_GAS_MARKETING_COMPANIES', 
-    'OIL_&_GAS_EXPLORATION_COMPANIES', 
-    'CEMENT', 
-    'PHARMACEUTICALS'
-]
+# array_of_sectors = [
+#     'FERTILIZER', 
+#     'COMMERCIAL_BANKS', 
+#     'OIL_&_GAS_MARKETING_COMPANIES', 
+#     'OIL_&_GAS_EXPLORATION_COMPANIES', 
+#     'CEMENT', 
+#     'PHARMACEUTICALS'
+# ]
+
+array_of_sectors = get_csv_filenames('sector_files')
 
 # Helper to extract % from Details column
 def extract_dividend_percent(details):

@@ -1,0 +1,2 @@
+﻿Symbol,StockPrice,DividendYearsPaid,DivPerYearPattern,ConsistentPayer,YearlyYieldDetails,DividendAmountsPKR,ConsistencyScore,Remarks,ExpectedDividend2025_PKR,ExpectedDividend2025_Percent,CalculationMethod
+PAKT,1334.0,"2025, 2024, 2023, 2022","3, 4, 2, 1",Yes,2025: 7.50% | 2024: 9.37% | 2023: 2.40% | 2022: 0.75%,2025: Rs.100.00 | 2024: Rs.125.00 | 2023: Rs.32.00 | 2022: Rs.10.00,100.0%,Perfect consistency: 3 consecutive years,Rs.2.84,0.21%,Growth trend
